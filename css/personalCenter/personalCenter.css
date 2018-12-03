@@ -95,6 +95,7 @@
 }
 .studyBox{
     margin-top: .4rem;
+    margin-bottom: 1.5rem;
 }
 .study{
     padding: .2rem 0;
@@ -150,11 +151,11 @@
 }
 
 .panel {
-    width: 90%;
+    width: 80%;
     /* height: 60%; */
     position: fixed;
-    top: 12%;
-    left: 5%;
+    top: 16%;
+    left: 10%;
     background: url('../../images/idCard_bg.png') no-repeat;
     background-size:100% 100%;
     border-radius: .2rem;
@@ -181,15 +182,15 @@
 	color: #fff;
 }
 .w_pic{
-    width: 2.5rem;
-    height: 2.5rem;
+    width: 2rem;
+    height: 2rem;
     margin: .7rem auto;
     border-radius: 100%;
     background: #fff;
     overflow: hidden;
 }
 .w_info{
-    width: 6rem;
+    width: 5rem;
     padding: 0 .4rem;
     margin: .4rem auto;
     text-align: center;
@@ -198,7 +199,7 @@
     overflow: hidden;
 }
 .info_item{
-    padding: .2rem 0 .2rem 1.5rem;
+    padding: .2rem 0 .2rem 1rem;
     text-align: left;
     border-bottom: 2px dashed #979797;
     font-size: .3rem;

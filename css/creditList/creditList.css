@@ -82,7 +82,7 @@
 		rgba(0, 0, 0, 0.35);
 }
 .publicBox li{
-    padding: .2rem .3rem;
+    padding: 0 .3rem;
     
 }
 .box{
@@ -146,4 +146,7 @@
 }
 .blackStyle{
     color: #000;
+}
+.last_box{
+    border: 0;
 }
