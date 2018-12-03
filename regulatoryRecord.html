@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <title>我的监管记录</title>
+    <link rel="stylesheet" href="css/default.css"></link>
+    <link rel='stylesheet' href="css/iconfont.css"></link>
+    <link rel='stylesheet' href="css/regulatoryRecord/regulatoryRecord.css"></link>
+</head>
+
+<body>
+    <div class="top">
+        <div class="rankingTop goBack clearfix">
+            <div class="rankingtTitle">
+                <i class="iconfont icon-zuojiantou"></i> 我的监管记录</div>
+            </div>
+        </div>
+    </div>
+    <!-- 切换按钮 -->
+    <div class="btnBox clearfix">
+        <div class="all fL publicBtnStyle ativeBtn">已完成</div>
+        <div class="abnormal fL publicBtnStyle">未完成</div>
+    </div>
+
+    <!-- 已完成 -->
+    <div class="allBox allBoxList">
+        <!-- 循环 -->
+        <div class="allList">
+            <div class="c_title clearfix">
+                <div class="fL L_t">黄二哥牛肉店</div>
+                <div class="fr r_t normal_t">已完成</div>
+            </div>
+            <div class="addr">雪苑菜市场3楼B区005号</div>
+            <ul class="cause clearfix">
+                <li><label>1.设施设备</label><i class="iconfont icon-zhengchang"></i></li>
+                <li><label>2.商品管理</label><i class="iconfont icon-zhengchang"></i></li>
+                <li><label>3.卫生管理</label><i class="iconfont icon-zhengchang"></i></li>
+                <li><label>4.经营管理</label><i class="iconfont icon-zhengchang"></i></li>
+            </ul>
+            <div class="release clearfix">
+                <div class="fL releaseInfo releaseName">提交人：刘建国</div>
+                <div class="fr releaseInfo releaseTime">2018.11.29 12:15:23</div>
+            </div>
+        </div>
+        <!-- 循环结束 -->
+        <div class="allList">
+            <div class="c_title clearfix">
+                <div class="fL L_t">黄二哥牛肉店</div>
+                <div class="fr r_t normal_t">已完成</div>
+            </div>
+            <div class="addr">雪苑菜市场3楼B区005号</div>
+            <ul class="cause clearfix">
+                <li><label>1.设施设备</label><i class="iconfont icon-zhengchang"></i></li>
+                <li><label>2.商品管理</label><i class="iconfont icon-zhengchang"></i></li>
+                <li><label>3.卫生管理</label><i class="iconfont icon-zhengchang"></i></li>
+                <li><label>4.经营管理</label><i class="iconfont icon-zhengchang"></i></li>
+            </ul>
+            <div class="release clearfix">
+                <div class="fL releaseInfo releaseName">提交人：刘建国</div>
+                <div class="fr releaseInfo releaseTime">2018.11.29 12:15:23</div>
+            </div>
+        </div>
+        <div class="allList">
+            <div class="c_title clearfix">
+                <div class="fL L_t">黄二哥牛肉店</div>
+                <div class="fr r_t normal_t">已完成</div>
+            </div>
+            <div class="addr">雪苑菜市场3楼B区005号</div>
+            <ul class="cause clearfix">
+                <li><label>1.设施设备</label><i class="iconfont icon-zhengchang"></i></li>
+                <li><label>2.商品管理</label><i class="iconfont icon-zhengchang"></i></li>
+                <li><label>3.卫生管理</label><i class="iconfont icon-zhengchang"></i></li>
+                <li><label>4.经营管理</label><i class="iconfont icon-zhengchang"></i></li>
+            </ul>
+            <div class="release clearfix">
+                <div class="fL releaseInfo releaseName">提交人：刘建国</div>
+                <div class="fr releaseInfo releaseTime">2018.11.29 12:15:23</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 未完成 -->
+    <div class="allBox abnormalBox">
+        <!-- 循环 -->
+        <div class="allList">
+            <div class="c_title clearfix">
+                <div class="fL L_t">钱妈妈</div>
+                <div class="fr r_t abnormal_t">未完成</div>
+            </div>
+            <div class="addr">雪苑菜市场3楼B区005号</div>
+            <ul class="cause clearfix">
+                <li><label>1.设施设备</label><i class="iconfont icon-yichang"></i></li>
+                <li><label>2.商品管理</label><i class="iconfont icon-yichang"></i></li>
+                <li><label>3.卫生管理</label><i class="iconfont icon-yichang"></i></li>
+                <li><label>4.经营管理</label><i class="iconfont icon-yichang"></i></li>
+            </ul>
+            <div class="release clearfix">
+                <div class="fL releaseInfo releaseName">提交人：刘建国</div>
+                <div class="fr releaseInfo releaseTime">2018.11.29 12:15:23</div>
+            </div>
+        </div>
+        <!-- 循环结束 -->
+    </div>
+
+    <script src="js/jquery-2.0.3.min.js"></script>
+    <script>
+        $(function(){
+            // 未完成
+            $('.abnormal').on('click',function(){
+                $(this).addClass('ativeBtn');
+                $('.all').removeClass('ativeBtn');
+                $('.allBoxList').hide();
+                $('.abnormalBox').show();
+                $(this).css('border','0');
+                $('.all').css({'border-top':'1px solid #aeaeae','border-bottom':'1px solid #aeaeae','border-left':'1px solid #aeaeae'})
+            })
+            // 已完成
+            $('.all').on('click',function(){
+                $(this).addClass('ativeBtn');
+                $('.abnormal').removeClass('ativeBtn');
+                $('.abnormalBox').hide();
+                $('.allBoxList').show();
+                $(this).css('border','0');
+                $('.abnormal').css({'border-top':'1px solid #aeaeae','border-bottom':'1px solid #aeaeae','border-right':'1px solid #aeaeae'})
+            })
+            $('.goBack').click(function(){
+                window.location.replace("./personalCenter.html");
+            })
+        })
+    </script>
+</body>
+
+</html>

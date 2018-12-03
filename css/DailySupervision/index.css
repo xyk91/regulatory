@@ -1,0 +1,253 @@
+.bg{
+    position: fixed;
+    top: 0;
+    width: 100%;
+	height: 3.11rem;
+    background-color: #8f2e2e;
+    background: url('../../images/1.png') no-repeat;
+    background-size:100% 100%;
+}
+.weather{
+    position: absolute;
+    top: 20%;
+    left: 7%;
+    width: 6.45rem;
+    height: 2.67rem;
+}
+.w_t{
+    font-weight: bold;
+    font-size: .4rem;
+	font-stretch: normal;
+	letter-spacing: 0;
+	color: #ffffff;
+}
+.degree_centigrade{
+    margin-top: .5rem;
+}
+.num_degree{
+    font-size: .5rem;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: .24;
+	letter-spacing: 0.01rem;
+	color: #ffffff;
+}
+.fine{
+    margin-left: .2rem;
+    display: inline-block;
+    font-size: .33rem;
+	font-weight: normal;
+	letter-spacing: 0;
+	color: #ffffff;
+}
+.exactDate{
+    font-size: .2rem;
+	font-weight: normal;
+	font-stretch: normal;
+	color: #ffffff;
+}
+.addr{
+    font-size: .22rem;
+	font-weight: normal;
+	font-stretch: normal;
+	color: #ffffff;
+}
+.date{
+    margin-top: .1rem;
+}
+.search{
+    width: 6.45rem;
+    height: .6rem;
+    margin-top: .3rem;
+}
+.search_box{
+    width: 5.1rem;
+    height: 100%;
+    padding: .11rem .2rem .15rem;
+    background-color: #ffffff;
+    border-top-left-radius: .1rem;
+    border-bottom-left-radius: .1rem;
+    border-top: solid 1px #aeaeae;
+    border-left: solid 1px #aeaeae;
+    border-bottom: solid 1px #aeaeae;
+}
+.qr{
+    width: 1.35rem;
+    height: 100%;
+    padding: .08rem  .13rem;
+    border-top-right-radius: .1rem;
+    border-bottom-right-radius: .1rem;
+    background-image: linear-gradient(-47deg, 
+		#17d5fd 0%, 
+		#0393d5 100%), 
+	linear-gradient(
+		#1494d9, 
+		#1494d9);
+	background-blend-mode: normal, 
+		normal;
+    border: solid 1px #aeaeae;
+}
+.search_tips{
+    margin-left: .2rem;
+    font-size: .2rem;
+	font-weight: normal;
+	font-stretch: normal;
+    color: #666666;
+    display: inline-block;
+}
+.qrCode{
+    margin-left: .1rem;
+    font-size: .3rem;
+	font-weight: normal;
+	font-stretch: normal;
+    color: #ffffff;
+    display: inline-block;
+}
+.icon-sousuo{
+    color: #1296db;
+}
+.icon-saoma{
+    color: #fff;
+}
+
+/* 功能区01  监督任务、完成、红黑榜*/
+.functionalAreas{
+    width: 100%;
+    height: 2.08rem;
+    margin-top: 3.8rem;
+	background-color: #ffffff;
+	box-shadow: 0px 2px 5px 0px 
+        rgba(0, 0, 0, 0.35);
+    display:flex;
+    display:-webkit-flex;
+    flex-direction:row;
+    flex-wrap:nowrap;
+}
+.publicBtn{
+    flex-grow:1;
+    height:100%;
+    text-align:center;
+    padding-top: .4rem;
+}
+.publicBtn:active{
+    background: rgba(18, 150, 219, 0.35)
+}
+.publicBtn p{
+    margin-top: 0.1rem;
+    font-size: .22rem;
+	font-weight: normal;
+	font-stretch: normal;
+    color: #666666;
+    text-align: center;
+}
+.publicTuBiao{
+    color: #1296db;
+    font-size: .8rem;
+}
+/* 信誉预警 */
+.publicListBox{
+    width: 100%;
+    /* height: 3.5rem; */
+    margin-top: .4rem;
+    padding: 0 .5rem;
+	background-color: #ffffff;
+	box-shadow: 0px 2px 5px 0px 
+		rgba(0, 0, 0, 0.35);
+}
+.c_title{
+    padding: .2rem 0;
+    border-bottom: 1px solid #e6e6e6;
+}
+.L_t{
+    font-size: .22rem;
+	font-weight: bold;
+	font-stretch: normal;
+	color: #1494d9;
+}
+.r_t{
+    font-size: .22rem;
+	font-weight: normal;
+	font-stretch: normal;
+	color: #999999;
+}
+/* 信誉列表 */
+.item{
+    padding: .4rem 0;
+    border-bottom: 1px dashed #1494d9;
+}
+.last_item{
+    border: 0;
+}
+.shopName{
+    font-size: .22rem;
+	font-weight: normal;
+	font-stretch: normal;
+	color: #333333;
+}
+.public_t{
+    font-size: .2rem;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 1px;
+	color: #666666;
+}
+.public_s{
+    margin-bottom: .06rem;
+}
+.newest{
+    font-size: .18rem;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 1px;
+	color: #1494d9;
+}
+.credit p{
+    text-align: right;
+}
+/* 消费评价 */
+.consumption{
+    margin-bottom: 2rem;
+}
+.evaluationInfo{
+    width: 70%;
+}
+.headImg{
+    width: .6rem;
+    height: .6rem;
+    /* border-radius: 100%; */
+    overflow: hidden;
+}
+.user{
+    margin-left: .1rem;
+}
+.uesrName{
+    font-size: .28rem;
+	font-weight: normal;
+	font-stretch: normal;
+	color: #353434;
+}
+.userTime{
+    font-size: .14rem;
+	font-weight: normal;
+	font-stretch: normal;
+	color: #858484;
+}
+.evaluation{
+    margin: .05rem 0 .1rem;
+    font-size: .16rem;
+	font-weight: bold;
+	font-stretch: normal;
+	color: #666666;
+}
+.evaluation_p{
+    width: .8rem;
+    height: .5rem;
+}
+.evaluationLanguage{
+    margin-top: .1rem;
+    font-size: .14rem;
+	font-weight: normal;
+	font-stretch: normal;
+	color: #999999;
+}
+

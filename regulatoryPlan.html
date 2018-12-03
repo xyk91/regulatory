@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <title>我的监管计划</title>
+    <link rel="stylesheet" href="css/default.css"></link>
+    <link rel='stylesheet' href="css/iconfont.css"></link>
+    <link rel='stylesheet' href="css/regulatoryPlan/regulatoryPlan.css"></link>
+</head>
+
+<body>
+    <div class="top">
+        <div class="goBack">
+            <i class="iconfont icon-zuojiantou"></i><label class="current">我的监管计划</label>
+        </div>
+        <div class="yearBox clearfix">
+            <div class="year fL">2018</div>
+            <div class="choose fr"><i class="iconfont icon-iconset0417"></i></div>
+        </div>
+        <ul class="month">
+            <li>5月</li>
+            <li>6月</li>
+            <li>7月</li>
+            <li>8月</li>
+            <li>9月</li>
+            <li>10月</li>
+            <li class="active">11月</li>
+            <li>12月</li>
+        </ul>
+    </div>
+
+    <ul class="palnList">
+        <li>
+            <div class="clearfix">
+                <div class="fL stopInfo">
+                    <p class="publicStyle">亚亮熟食店</p>
+                    <p class="publicStyle">雪苑菜市场3楼B区005号雪苑菜市场3楼B区005号</p>
+                </div>
+                <div class="fr goRegulatory">去监管</div>
+            </div>
+            <div class="dataInfo">2018.11.29 12:15:23</div>
+        </li>
+        <li>
+            <div class="clearfix">
+                <div class="fL stopInfo">
+                    <p class="publicStyle">颜丹熟食店</p>
+                    <p class="publicStyle">雪苑菜市场3楼B区08号</p>
+                </div>
+                <div class="fr goRegulatory">去监管</div>
+            </div>
+            <div class="dataInfo">2018.11.29 12:15:23</div>
+        </li>
+        <li>
+            <div class="clearfix">
+                <div class="fL stopInfo">
+                    <p class="publicStyle">明明水果店</p>
+                    <p class="publicStyle">雪苑菜市场12楼B区08号</p>
+                </div>
+                <div class="fr goRegulatory">去监管</div>
+            </div>
+            <div class="dataInfo">2018.11.29 12:15:23</div>
+        </li>
+        <li>
+            <div class="clearfix">
+                <div class="fL stopInfo">
+                    <p class="publicStyle">旺角副食店</p>
+                    <p class="publicStyle">雪苑菜市场18楼B区08号</p>
+                </div>
+                <div class="fr goRegulatory">去监管</div>
+            </div>
+            <div class="dataInfo">2018.11.29 12:15:23</div>
+        </li>
+    </ul>
+
+    <script src="js/jquery-2.0.3.min.js"></script>
+    <script>
+        $(function(){
+            $('.goBack').click(function(){
+                window.location.replace("./personalCenter.html");
+            })
+            $('.goRegulatory').click(function(){
+                window.location.replace("./regulatoryInput.html");
+            })
+        })
+    </script>
+</body>
+
+</html>

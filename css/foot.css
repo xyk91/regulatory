@@ -1,0 +1,44 @@
+/*  底部 */
+.foot{
+    position: fixed;
+    bottom: 0;
+    width: 7.5rem;
+	height: 1.2rem;
+	background-image: linear-gradient(-77deg, 
+		#17d5fd 0%, 
+		#0393d5 100%), 
+	linear-gradient(
+		#369dd9, 
+		#369dd9);
+	background-blend-mode: normal, 
+		normal;
+    border: solid 1px #369dd9;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.foot_nav{
+    flex-grow: 1;
+    height: 100%;
+    padding-top: .1rem;
+    text-align: center;
+}
+.foot_nav:active{
+    background: rgba(18, 150, 219, 0.35)
+}
+.publicFootBiao{
+    font-size: .6rem;
+    color: rgba(254, 254, 254, 0.7);
+}
+.foot_txt{
+    text-align: center;
+    font-size: .2rem;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0px;
+	color: rgba(254, 254, 254, 0.7);
+}
+.footActive{
+    color: #fff;
+}

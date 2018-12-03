@@ -1,0 +1,210 @@
+.top{
+    width: 7.5rem;
+	/* height: 2.86rem; */
+	background-image: linear-gradient(-77deg, #17d5fd 0%, #0393d5 100%), 
+	linear-gradient(#1494d9, #1494d9);
+	background-blend-mode: normal, normal;
+    overflow: hidden;
+}
+.personalIcon{
+    width: 1.5rem;
+    height: 1.5rem;
+    margin: .1rem auto;
+	background-color: rgba(134, 218, 244, 0.5);
+    text-align: center;
+    border-radius: 100%;
+    overflow: hidden;
+}
+.p_img{
+    width: 1.35rem;
+    height: 1.35rem;
+    margin: .08rem auto 0;
+    border-radius: 100%;
+    overflow: hidden;
+    background: #fff;
+}
+.p_name,.p_position,.p_count{
+    margin-bottom: .05rem;
+    text-align: center;
+    font-size: .24rem;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0px;
+	color: #ffffff;
+}
+.publicListBox{
+    /* height: 1.17rem; */
+    padding: .2rem .4rem;
+	background-color: #ffffff;
+	box-shadow: 0px 2px 5px 0px 
+		rgba(0, 0, 0, 0.35);
+}
+.my{
+    margin-top: .4rem;
+}
+/* 监管证 */
+.big_t{
+    margin-bottom: .1rem;
+    text-align: left;
+    font-size: .3rem;
+	font-weight: bold;
+	font-stretch: normal;
+	letter-spacing: 0px;
+	color: #1494d9;
+}
+.small_t{
+    text-align: left;
+    font-size: .2rem;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0px;
+	color: #666666;
+}
+.idCardBox{
+    margin-top: .15rem;
+}
+.idCard{
+    width: .8rem;
+	height: .57rem;
+}
+/* 监督记录 */
+.regulatoryRecord{
+    padding: .2rem 0;
+    border-bottom: 1px dashed #1494d9;
+}
+.icon-zuotijilu{
+    font-size: .35rem;
+    color: #1494d9;
+}
+.icon-guanli{
+    font-size: .4rem;
+    color: #1494d9;
+}
+.regulatoryRecord label{
+    margin-left: .1rem;
+    font-size: 0.3rem;
+    vertical-align: text-bottom;
+}
+.plan{
+    padding: .2rem 0 0;
+}
+.plan label{
+    margin-left: .1rem;
+    font-size: 0.3rem;
+    vertical-align: text-bottom;
+}
+.studyBox{
+    margin-top: .4rem;
+}
+.study{
+    padding: .2rem 0;
+    border-bottom: 1px dashed #1494d9;
+}
+.icon-shuben{
+    font-size: .5rem;
+    color: #1494d9;
+    vertical-align: middle;
+}
+.study label{
+    margin-left: .05rem;
+    font-size: 0.3rem;
+}
+.pdf{}
+.pdf li{
+    float: left;
+    width: 2rem;
+    margin-right: 0.1rem;
+    margin-top: .25rem;
+    text-align: center;
+}
+.pdfImg{
+    width: .6rem;
+	height: .7rem;
+}
+.pdf li p{
+    margin-top: .1rem;
+    text-align: center;
+    font-size: .16rem;
+	font-weight: normal;
+	font-stretch: normal;
+    color: #666666;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.pdf li:active{
+    background: rgba(18, 150, 219, 0.35)
+}
+
+/* 弹窗 */
+.black {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: #000;
+    opacity: 0.5;
+    z-index: 9999;
+    display: none;
+}
+
+.panel {
+    width: 90%;
+    /* height: 60%; */
+    position: fixed;
+    top: 12%;
+    left: 5%;
+    background: url('../../images/idCard_bg.png') no-repeat;
+    background-size:100% 100%;
+    border-radius: .2rem;
+    text-align: center;
+    overflow: hidden;
+    z-index: 100000;
+    display: none;
+}
+.box{
+    width: 2rem;
+    height: .2rem;
+    margin: .7rem auto;
+    border-radius: .5rem;
+    background: #fff;
+    border: 1px solid #908d89;
+    overflow: hidden;
+}
+.w_title{
+    text-align: center;
+    font-size: .4rem;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0px;
+	color: #fff;
+}
+.w_pic{
+    width: 2.5rem;
+    height: 2.5rem;
+    margin: .7rem auto;
+    border-radius: 100%;
+    background: #fff;
+    overflow: hidden;
+}
+.w_info{
+    width: 6rem;
+    padding: 0 .4rem;
+    margin: .4rem auto;
+    text-align: center;
+    background: #fff;
+    border-radius: .2rem;
+    overflow: hidden;
+}
+.info_item{
+    padding: .2rem 0 .2rem 1.5rem;
+    text-align: left;
+    border-bottom: 2px dashed #979797;
+    font-size: .3rem;
+}
+.last_item{
+    border: 0;
+}
+
+

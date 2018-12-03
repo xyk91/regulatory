@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <title>监管录入</title>
+    <link rel="stylesheet" href="css/default.css"></link>
+    <link rel='stylesheet' href="css/iconfont.css"></link>
+    <link rel="stylesheet" href="lib/jquery-weui/css/weui.css"></link>
+    <link rel="stylesheet" href="css/regulatoryInput/regulatoryInput.css"></link>
+</head>
+
+<body>
+    <div class="top">
+        <div class="goBack">
+            <i class="iconfont icon-zuojiantou"></i>
+            <label class="current">我的监管计划</label>
+        </div>
+        <div class="info clearfix">
+            <div class="fL leftInfo">
+                <div class="logoImg">
+                    <img src="images/LuRu_logo.png" class="logoIcon" />
+                </div>
+                <div class="logoInfo">
+                    <p class="name">钱妈妈</p>
+                    <p class="addr">雪苑菜市场3楼B区005号</p>
+                </div>
+            </div>
+            <div class="fr score">
+                信用分：
+                <label>85</label>
+            </div>
+        </div>
+    </div>
+    <!-- 列表一 onclick="clickWindow(this)"-->
+    <div class="publicBox oneList">
+        <div class="headline">一.设施设备</div>
+        <div class="item clearfix">
+            <div class="fL item_name">1.排水设施</div>
+            <div class="fr operation">
+                <img src="images/wrong.png" class="wrong s_btn" id="w" />　<img src="images/yes.png" class="yes s_btn" id='y'/>
+            </div>
+        </div>
+        <div class="item clearfix">
+            <div class="fL item_name">2.供电</div>
+            <div class="fr operation">
+                <img src="images/wrong.png" class="wrong s_btn"/>　<img src="images/yes.png" class="yes s_btn"/>
+            </div>
+        </div>
+        <div class="item clearfix">
+            <div class="fL item_name">3.通风</div>
+            <div class="fr operation">
+                <img src="images/wrong.png" class="wrong s_btn"/>　<img src="images/yes.png" class="yes s_btn"/>
+            </div>
+        </div>
+        <div class="item clearfix">
+            <div class="fL item_name">4.垃圾处理</div>
+            <div class="fr operation">
+                <img src="images/wrong.png" class="wrong s_btn"/>　<img src="images/yes.png" class="yes s_btn"/>
+            </div>
+        </div>
+        <div class="item clearfix">
+            <div class="fL item_name">5.消防设备</div>
+            <div class="fr operation">
+                <img src="images/wrong.png" class="wrong s_btn"/>　<img src="images/yes.png" class="yes s_btn"/>
+            </div>
+        </div>
+    </div>
+
+    <!-- 列表二 -->
+    <div class="publicBox rest">
+        <div class="headline">二.商品管理</div>
+        <div class="item clearfix">
+            <div class="fL item_name">1.进货管理</div>
+            <div class="fr operation">
+                <img src="images/wrong.png" class="wrong s_btn"/>　<img src="images/yes.png" class="yes s_btn"/>
+            </div>
+        </div>
+        <div class="item clearfix">
+            <div class="fL item_name">2.入市监测</div>
+            <div class="fr operation">
+                <img src="images/wrong.png" class="wrong s_btn"/>　<img src="images/yes.png" class="yes s_btn"/>
+            </div>
+        </div>
+        <div class="item clearfix">
+            <div class="fL item_name">3.劣品清退</div>
+            <div class="fr operation">
+                <img src="images/wrong.png" class="wrong s_btn"/>　<img src="images/yes.png" class="yes s_btn"/>
+            </div>
+        </div>
+        <div class="item clearfix">
+            <div class="fL item_name">4.禁营项目</div>
+            <div class="fr operation">
+                <img src="images/wrong.png" class="wrong s_btn"/>　<img src="images/yes.png" class="yes s_btn"/>
+            </div>
+        </div>
+        <div class="item clearfix">
+            <div class="fL item_name">5.商品陈列</div>
+            <div class="fr operation">
+                <img src="images/wrong.png" class="wrong s_btn"/>　<img src="images/yes.png" class="yes s_btn"/>
+            </div>
+        </div>
+        <div class="item clearfix">
+            <div class="fL item_name">6.包装</div>
+            <div class="fr operation">
+                <img src="images/wrong.png" class="wrong s_btn"/>　<img src="images/yes.png" class="yes s_btn"/>
+            </div>
+        </div>
+    </div>
+
+    <!-- 列表三 -->
+    <div class="publicBox rest">
+        <div class="headline">三.卫生管理</div>
+        <div class="item clearfix">
+            <div class="fL item_name">1.环境卫生</div>
+            <div class="fr operation">
+                <img src="images/wrong.png" class="wrong s_btn"/>　<img src="images/yes.png" class="yes s_btn"/>
+            </div>
+        </div>
+        <div class="item clearfix">
+            <div class="fL item_name">2.设施卫生</div>
+            <div class="fr operation">
+                <img src="images/wrong.png" class="wrong s_btn"/>　<img src="images/yes.png" class="yes s_btn"/>
+            </div>
+        </div>
+        <div class="item clearfix">
+            <div class="fL item_name">3.从业人员卫生</div>
+            <div class="fr operation">
+                <img src="images/wrong.png" class="wrong s_btn"/>　<img src="images/yes.png" class="yes s_btn"/>
+            </div>
+        </div>
+    </div>
+
+        <!-- 列表四 -->
+        <div class="publicBox rest">
+            <div class="headline">四.经营规范</div>
+            <div class="item clearfix">
+                <div class="fL item_name">1.制度规范</div>
+                <div class="fr operation">
+                    <img src="images/wrong.png" class="wrong s_btn"/>　<img src="images/yes.png" class="yes s_btn"/>
+                </div>
+            </div>
+            <div class="item clearfix">
+                <div class="fL item_name">2.证明规范</div>
+                <div class="fr operation">
+                    <img src="images/wrong.png" class="wrong s_btn"/>　<img src="images/yes.png" class="yes s_btn"/>
+                </div>
+            </div>
+            <div class="item clearfix">
+                <div class="fL item_name">3.质量规范</div>
+                <div class="fr operation">
+                    <img src="images/wrong.png" class="wrong s_btn"/>　<img src="images/yes.png" class="yes s_btn"/>
+                </div>
+            </div>
+            <div class="item clearfix">
+                <div class="fL item_name">4.价格规范</div>
+                <div class="fr operation">
+                    <img src="images/wrong.png" class="wrong s_btn"/>　<img src="images/yes.png" class="yes s_btn"/>
+                </div>
+            </div>
+            <div class="item clearfix">
+                <div class="fL item_name">5.计量规范</div>
+                <div class="fr operation">
+                    <img src="images/wrong.png" class="wrong s_btn"/>　<img src="images/yes.png" class="yes s_btn"/>
+                </div>
+            </div>
+            <div class="item clearfix">
+                <div class="fL item_name">6.服务规范</div>
+                <div class="fr operation">
+                    <img src="images/wrong.png" class="wrong s_btn"/>　<img src="images/yes.png" class="yes s_btn"/>
+                </div>
+            </div>
+        </div>
+        <div class="saveBtn">
+            <input type="button" value="保存" class="save"/>
+        </div>
+        <div class="subBtn">
+            <input type="button" value="提交" class="submit "/>
+        </div>
+        
+
+    <!-- 弹窗 -->
+    <div class='black'></div>
+    <div class='panel'>
+        <div class="p_title clearfix">
+            <div class="fL note">异常备注</div>
+            <div class="fr close">
+                <i class="iconfont icon-cuo"></i>
+            </div>
+        </div>
+        <div class="weui-cells weui-cells_form">
+            <div class="weui-cell">
+                <div class="weui-cell__bd">
+                    <div class="weui-uploader">
+                        <div class="weui-uploader__bd">
+                            <div class="weui-uploader__input-box">
+                                <i class="iconfont icon-paizhao1"></i>
+                                <p class="pai">拍照</p>
+                                <input id="uploaderInput" class="weui-uploader__input" type="file" accept="image/*" multiple="">
+                            </div>
+                            <ul class="weui-uploader__files" id="uploaderFiles">
+                                <li class="weui-uploader__file"><img src="images/LuRu_logo.png"/></li>
+                                <li class="weui-uploader__file"><img src="images/LuRu_logo.png"/></li>
+                                <li class="weui-uploader__file"><img src="images/LuRu_logo.png"/></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <textarea class="txt_area" id="txt_area" placeholder='请输入文字描述'></textarea>
+        <input type="button" class="sub" value="提交"/>
+    </div>
+
+    <script src="js/jquery-2.0.3.min.js"></script>
+    <script>
+        $(function () {
+            // 打钩
+            $(".yes").click(function(){
+                $(this).attr('src',$(this).attr('src')=='images/yes.png'?'images/yes-on.png':'images/yes.png');
+                $(this).siblings('.wrong').attr('src',$(this).attr('src')=='images/wrong-on.png'?'images/wrong-on.png':'images/wrong.png');
+            })
+            // 点击×
+            $('#w').click(function(){
+                
+                $('.black').show();
+                $('.panel').show();
+                
+                // clickWindow($(this))
+            })
+            $('.sub').click(function(){
+                var _this = $(this)
+                var txtArea = $('#txt_area').val();
+                if(txtArea != '' && txtArea != null){
+                    $('#w').attr('src',$('#w').attr('src')=='images/wrong.png'?'images/wrong-on.png':'images/wrong.png');
+                    $('#w').siblings('#y').attr('src',$('#y').attr('src')=='images/yes-on.png'?'images/yes.png':'images/yes.png');
+                    $('.black').hide();
+                    $('.panel').hide();
+                }else{
+
+                }
+            });
+            // 弹窗关闭
+            $('.close').click(function(){
+                $('.black').hide();
+                $('.panel').hide();
+            });
+            $('.goBack').click(function(){
+                window.location.replace("./regulatoryPlan.html");
+            })
+        })
+        function clickWindow(obj){
+            console.log(obj)
+            var txtArea = $('#txt_area').val();
+            $('.black').show();
+            $('.panel').show();
+            $('.sub').click(function(){
+                console.log(1)
+                // console.log(txtArea)
+                // console.log(txtArea != '')
+                // if(txtArea != '' && txtArea != null){
+                    console.log(2)
+                    $(this).attr('src',$(this).attr('src')=='images/yes.png'?'images/yes-on.png':'images/yes.png');
+                    $('.black').hide();
+                    $('.panel').hide();
+                // }
+            });
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <title>信用排行</title>
+    <link rel="stylesheet" href="css/default.css"></link>
+    <link rel='stylesheet' href="css/iconfont.css"></link>
+    <link rel='stylesheet' href="css/ranking/ranking.css"></link>
+    <link rel="stylesheet" href="css/foot.css"></link>
+</head>
+
+<body>
+    <div class="top">
+        <div class="rankingTop clearfix goBack">
+            <div class="fL rankingtTitle"><i class="iconfont icon-zuojiantou"></i> 雪苑农贸市场信用排行</div>
+            <div class="fr"><i class="iconfont icon-tubiao- tu_btn"></i> <i class="iconfont icon-saoma tu_btn"></i></div>
+        </div>
+        <div class="rankingTop clearfix">
+            <div class="fL rankingtTitle">全部商户</div>
+            <div class="fr screening"><i class="iconfont icon-shaixuan tu_btn"></i> <label>筛选</label></div>
+        </div>
+    </div>
+
+    <!-- 切换按钮 -->
+    <div class="btnBox clearfix">
+        <div class="all fL publicBtnStyle ativeBtn">信用分降序</div>
+        <div class="abnormal fL publicBtnStyle">信用分升序</div>
+    </div>
+
+    <ul class="red publicBox clearfix">
+        <!-- 循环 -->
+        <li class="clearfix">
+            <div class="box clearfix">
+                <div class="fL clearfix">
+                    <div class="fL num">1</div>
+                    <div class="fr ListInfo">
+                        <p class="stopName">旺角副食店</p>
+                        <p class="addr">雪苑菜市场3楼B区85号</p>
+                    </div>
+                </div>
+                <div class="fr score_complaints">
+                    <p class="score">信用分<label>60</label></p>
+                    <p class="complaints">投诉 0</p>
+                </div>
+            </div>
+        </li>
+        <!-- 循环结束 -->
+        <li class="clearfix">
+            <div class="box clearfix">
+                <div class="fL clearfix">
+                    <div class="fL num">2</div>
+                    <div class="fr ListInfo">
+                        <p class="stopName">艾尚果水果店</p>
+                        <p class="addr">雪苑菜市场3楼B区85号</p>
+                    </div>
+                </div>
+                <div class="fr score_complaints">
+                    <p class="score">信用分<label>43</label></p>
+                    <p class="complaints">投诉 2</p>
+                </div>
+            </div>
+        </li>
+        <li class="clearfix">
+            <div class="box clearfix">
+                <div class="fL clearfix">
+                    <div class="fL num">3</div>
+                    <div class="fr ListInfo">
+                        <p class="stopName">陈建羊肉铺</p>
+                        <p class="addr">雪苑菜市场3楼B区85号</p>
+                    </div>
+                </div>
+                <div class="fr score_complaints">
+                    <p class="score">信用分<label>23</label></p>
+                    <p class="complaints">投诉 40</p>
+                </div>
+            </div>
+        </li>
+    </ul>
+
+     <!-- 黑榜 -->
+     <ul class="black publicBox clearfix">
+        <!-- 循环 -->
+        <li class="clearfix">
+            <div class="box clearfix">
+                <div class="fL clearfix">
+                    <div class="fL num">1</div>
+                    <div class="fr ListInfo">
+                        <p class="stopName">亚亮熟食店</p>
+                        <p class="addr">雪苑菜市场3楼B区85号</p>
+                    </div>
+                </div>
+                <div class="fr score_complaints">
+                    <p class="score">信用分<label class="blackStyle">2</label></p>
+                    <p class="complaints">投诉 200</p>
+                </div>
+            </div>
+        </li>
+        <!-- 循环结束 -->
+        <li class="clearfix">
+            <div class="box clearfix">
+                <div class="fL clearfix">
+                    <div class="fL num">2</div>
+                    <div class="fr ListInfo">
+                        <p class="stopName">明明水果店</p>
+                        <p class="addr">雪苑菜市场3楼B区85号</p>
+                    </div>
+                </div>
+                <div class="fr score_complaints">
+                    <p class="score">信用分<label class="blackStyle">3</label></p>
+                    <p class="complaints">投诉 200</p>
+                </div>
+            </div>
+        </li>
+        <li class="clearfix">
+            <div class="box clearfix">
+                <div class="fL clearfix">
+                    <div class="fL num">3</div>
+                    <div class="fr ListInfo">
+                        <p class="stopName">颜丹熟食店</p>
+                        <p class="addr">雪苑菜市场3楼B区85号</p>
+                    </div>
+                </div>
+                <div class="fr score_complaints">
+                    <p class="score">信用分<label class="blackStyle">13</label></p>
+                    <p class="complaints">投诉 100</p>
+                </div>
+            </div>
+        </li>
+    </ul>
+    
+    <div class="foot">
+        <div class="foot_nav">
+            <div class="iconfont icon-jianguan publicFootBiao daily"></div>
+            <p class="foot_txt">日常监管</p>
+        </div>
+        <div class="foot_nav">
+            <div class="iconfont icon-paihang publicFootBiao footActive"></div>
+            <p class="foot_txt footActive">信用排行</p>
+        </div>
+        <div class="foot_nav">
+            <div class="iconfont icon-xiazai publicFootBiao pc"></div>
+            <p class="foot_txt">个人中心</p>
+        </div>
+    </div>
+    <script src="js/jquery-2.0.3.min.js"></script>
+    <script>
+        $(function(){
+            $('.abnormal').on('click',function(){
+                $(this).addClass('ativeBtn');
+                $('.all').removeClass('ativeBtn');
+                $('.red').hide();
+                $('.black').show();
+                $(this).css('border','0');
+                $('.all').css({'border-top':'1px solid #aeaeae','border-bottom':'1px solid #aeaeae','border-left':'1px solid #aeaeae'})
+            })
+            $('.all').on('click',function(){
+                $(this).addClass('ativeBtn');
+                $('.abnormal').removeClass('ativeBtn');
+                $('.black').hide();
+                $('.red').show();
+                $(this).css('border','0');
+                $('.abnormal').css({'border-top':'1px solid #aeaeae','border-bottom':'1px solid #aeaeae','border-right':'1px solid #aeaeae'})
+            })
+            $('.goBack').click(function(){
+                window.location.replace("./index.html");
+            })
+            $('.daily').click(function(){
+                window.location.href = './index.html';
+            })
+            $('.pc').click(function(){
+                window.location.href = './personalCenter.html';
+            })
+        })
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <title>个人中心</title>
+    <link rel="stylesheet" href="css/default.css"></link>
+    <link rel='stylesheet' href="css/iconfont.css"></link>
+    <link rel="stylesheet" href="css/personalCenter/personalCenter.css"></link>
+    <link rel="stylesheet" href="css/foot.css"></link>
+</head>
+
+<body>
+    <div class="top">
+        <div class="personalIcon"><img src="images/man.png" class="p_img"/></div>
+        <div class="p_name">王宝强</div>
+        <div class="p_position">职务：监管人员</div>
+        <div class="p_count">累计上岗 ：25天　累计监管  25次</div>
+    </div>
+    <div class="publicListBox clearfix">
+        <div class="fL">
+            <p class="big_t">亮监管证</p>
+            <p class="small_t">监管员请出示监管证</p>
+        </div>
+        <div class="fr idCardBox"><img src="images/idCard.png" class="idCard"/></div>
+    </div>
+    <div class="publicListBox clearfix my">
+        <a href="./regulatoryRecord.html">
+            <div class="regulatoryRecord">
+                <i class="iconfont icon-zuotijilu"></i><label>我的监管记录</label>
+            </div>
+        </a>
+        <a href="./regulatoryPlan.html">
+            <div class="plan">
+                <i class="iconfont icon-guanli"></i><label>我的计划管理</label>
+            </div>
+        </a>
+    </div>
+    <div class="publicListBox clearfix studyBox">
+        <div class="study">
+            <i class="iconfont icon-shuben"></i><label>学习资料</label>
+        </div>
+        <ul class="pdf">
+            <li>
+                <img src="images/pdf.png" class="pdfImg"/>
+                <p>绥阳区市场监绥阳区市场监</p>
+            </li>
+            <li>
+                <img src="images/pdf.png" class="pdfImg"/>
+                <p>绥阳区市场监绥阳区市场监</p>
+            </li>
+            <li>
+                <img src="images/pdf.png" class="pdfImg"/>
+                <p>绥阳区市场监绥阳区市场监</p>
+            </li>
+            <li>
+                <img src="images/pdf.png" class="pdfImg"/>
+                <p>绥阳区市场监绥阳区市场监</p>
+            </li>
+        </ul>
+    </div>
+
+    <div class="foot">
+        <div class="foot_nav">
+            <div class="iconfont icon-jianguan publicFootBiao daily"></div>
+            <p class="foot_txt">日常监管</p>
+        </div>
+        <div class="foot_nav">
+            <div class="iconfont icon-paihang publicFootBiao rank"></div>
+            <p class="foot_txt">信用排行</p>
+        </div>
+        <div class="foot_nav">
+            <div class="iconfont icon-xiazai publicFootBiao footActive"></div>
+            <p class="foot_txt footActive">个人中心</p>
+        </div>
+    </div>
+    <!-- 弹窗 -->
+    <div class='black'></div>
+    <div class='panel'>
+        <div class='box'></div>
+        <div class="w_title">雪苑农贸市场</div>
+        <img src="images/man.png" class="w_pic"/>
+        <div class="w_info">
+            <div class="info_item">姓名：王宝强</div>
+            <div class="info_item">部门：运营部</div>
+            <div class="info_item last_item">工号：xxxx00132</div>
+        </div>
+    </div>
+
+    <script src="js/jquery-2.0.3.min.js"></script>
+    <script>
+        $(function(){
+            $('.idCardBox').click(function(){
+                $('.black').show();
+                $('.panel').show();
+            });
+            $('.black').click(function(){
+                $(this).hide();
+                $('.panel').hide();
+            });
+            $('.rank').click(function(){
+                window.location.href = './ranking.html';
+            })
+            $('.daily').click(function(){
+                window.location.href = './index.html';
+            })
+        })
+    </script>
+</body>
+
+</html>
