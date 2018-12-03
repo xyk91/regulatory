@@ -98,7 +98,7 @@
 		rgba(0, 0, 0, 0.35);
 }
 .publicBox li{
-    padding: .2rem .3rem;
+    padding: 0 .3rem;
     
 }
 .box{
@@ -125,7 +125,7 @@
 	color: #333333;
 }
 .addr{
-    font-size: .2rem;
+    font-size: .24rem;
 	font-weight: normal;
 	font-stretch: normal;
 	color: #666666;
@@ -163,4 +163,6 @@
 .blackStyle{
     color: #000;
 }
-
+.box_last{
+    border: 0
+}

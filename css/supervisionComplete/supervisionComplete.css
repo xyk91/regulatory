@@ -92,7 +92,7 @@
 	color: #666666;
 }
 .r_t{
-    font-size: .22rem;
+    font-size: .28rem;
 	font-weight: normal;
 	font-stretch: normal;
 	color: #999999;
@@ -104,7 +104,7 @@
     color: #1494d9;
 }
 .addr{
-    font-size: .18rem;
+    font-size: .24rem;
 	font-weight: normal;
 	font-stretch: normal;
 	color: #666666;
@@ -135,10 +135,10 @@
     font-weight: bold;
 }
 .release{
-    padding: .1rem 0
+    padding: .15rem 0
 }
 .releaseInfo{
-    font-size: .16rem;
+    font-size: .24rem;
 	font-weight: normal;
 	font-stretch: normal;
 	color: #666666;

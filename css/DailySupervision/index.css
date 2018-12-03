@@ -1,7 +1,7 @@
 .bg{
     position: fixed;
     top: 0;
-    width: 100%;
+    width: 7.5rem;
 	height: 3.11rem;
     background-color: #8f2e2e;
     background: url('../../images/1.png') no-repeat;
@@ -112,7 +112,7 @@
 
 /* 功能区01  监督任务、完成、红黑榜*/
 .functionalAreas{
-    width: 100%;
+    width: 7.5rem;
     height: 2.08rem;
     margin-top: 3.8rem;
 	background-color: #ffffff;
@@ -146,7 +146,7 @@
 }
 /* 信誉预警 */
 .publicListBox{
-    width: 100%;
+    width: 7.5rem;
     /* height: 3.5rem; */
     margin-top: .4rem;
     padding: 0 .5rem;
@@ -159,13 +159,13 @@
     border-bottom: 1px solid #e6e6e6;
 }
 .L_t{
-    font-size: .22rem;
+    font-size: .28rem;
 	font-weight: bold;
 	font-stretch: normal;
 	color: #1494d9;
 }
 .r_t{
-    font-size: .22rem;
+    font-size: .28rem;
 	font-weight: normal;
 	font-stretch: normal;
 	color: #999999;
@@ -179,26 +179,25 @@
     border: 0;
 }
 .shopName{
-    font-size: .22rem;
+    font-size: .26rem;
 	font-weight: normal;
 	font-stretch: normal;
 	color: #333333;
 }
 .public_t{
-    font-size: .2rem;
+    font-size: .24rem;
 	font-weight: normal;
 	font-stretch: normal;
 	letter-spacing: 1px;
 	color: #666666;
 }
 .public_s{
-    margin-bottom: .06rem;
+    margin-bottom: .04rem;
 }
 .newest{
-    font-size: .18rem;
+    font-size: .24rem;
 	font-weight: normal;
 	font-stretch: normal;
-	letter-spacing: 1px;
 	color: #1494d9;
 }
 .credit p{
@@ -221,20 +220,20 @@
     margin-left: .1rem;
 }
 .uesrName{
-    font-size: .28rem;
+    font-size: .3rem;
 	font-weight: normal;
 	font-stretch: normal;
 	color: #353434;
 }
 .userTime{
-    font-size: .14rem;
+    font-size: .24rem;
 	font-weight: normal;
 	font-stretch: normal;
 	color: #858484;
 }
 .evaluation{
     margin: .05rem 0 .1rem;
-    font-size: .16rem;
+    font-size: .24rem;
 	font-weight: bold;
 	font-stretch: normal;
 	color: #666666;
@@ -245,7 +244,7 @@
 }
 .evaluationLanguage{
     margin-top: .1rem;
-    font-size: .14rem;
+    font-size: .24rem;
 	font-weight: normal;
 	font-stretch: normal;
 	color: #999999;

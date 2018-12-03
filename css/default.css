@@ -2,7 +2,7 @@
 @charset "utf-8";
 
 html{font-size: 13.3333333vw}
-body{min-width: 320px;max-width: 750px;font-size: 0.28rem;background: #fafafa;}
+body{max-width: 750px;font-size: 0.28rem;background: #fafafa;}
 *{padding: 0;margin: 0;font-family: microsoft yahei,'宋体',arial;font-size: .24rem;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;color: #222;text-decoration: none;}
 ul{list-style: none;}
 ol{list-style: none;}

@@ -90,17 +90,17 @@
 .content_task{
     padding: .2rem;
     line-height: .35rem;
-    font-size: .16rem;
+    font-size: .24rem;
 	font-weight: normal;
 	font-stretch: normal;
 	color: #333333;
     border-bottom: 1px dashed #1494d9;
 }
 .release{
-    padding: .1rem .3rem;
+    padding: .15rem .3rem;
 }
 .releaseInfo{
-    font-size: .16rem;
+    font-size: .24rem;
 	font-weight: normal;
 	font-stretch: normal;
 	color: #666666;

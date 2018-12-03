@@ -1,6 +1,7 @@
 .top{
     width: 7.5rem;
-	/* height: 2.86rem; */
+    /* height: 2.86rem; */
+    padding: .1rem 0;
 	background-image: linear-gradient(-77deg, #17d5fd 0%, #0393d5 100%), 
 	linear-gradient(#1494d9, #1494d9);
 	background-blend-mode: normal, normal;
@@ -54,7 +55,7 @@
 }
 .small_t{
     text-align: left;
-    font-size: .2rem;
+    font-size: .24rem;
 	font-weight: normal;
 	font-stretch: normal;
 	letter-spacing: 0px;
@@ -125,7 +126,7 @@
 .pdf li p{
     margin-top: .1rem;
     text-align: center;
-    font-size: .16rem;
+    font-size: .2rem;
 	font-weight: normal;
 	font-stretch: normal;
     color: #666666;
