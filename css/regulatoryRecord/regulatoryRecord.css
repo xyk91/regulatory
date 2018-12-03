@@ -79,7 +79,7 @@
 	color: #666666;
 }
 .r_t{
-    font-size: .22rem;
+    font-size: .28rem;
 	font-weight: normal;
 	font-stretch: normal;
 	color: #999999;
@@ -102,7 +102,7 @@
 }
 .cause li{
     float: left;
-    margin-right: 0.5rem;
+    margin-right: 0.4rem;
     margin-bottom: .1rem;
 }
 .cause li label{
